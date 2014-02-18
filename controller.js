@@ -1,18 +1,17 @@
 var BookController = {};
 
-// from Alex MacCaw
+// adapted from Alex MacCaw's JavaScript Web Applications Chapter 1
 // TODO refactor for our Object Style?
-// TODO refactor for raw JS and not jQuery, ref youmightnotneedjquery.com
 (BookController.users = function($){
   'use strict';
   var titleClick = function() {
     alert('title was clicked');
   };
   // Attach event listeners on page load
-  $(function(){
-    $('#title').click(titleClick)
+  document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById('title').onclick = titleClick;
   });
 
-})(jQuery);
+})();
 
 
