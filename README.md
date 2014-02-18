@@ -12,5 +12,4 @@ This is not a good example, it needs work!
 
 - Add a CommonJS loader. e.g. browserify
 - Precompile handlebars with node and grunt
-- Refactor Controller to avoid jQuery
 - Make it purty
