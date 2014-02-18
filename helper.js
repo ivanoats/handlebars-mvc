@@ -1,6 +1,5 @@
 // helper.js
-var helper = {};
-helper.formatTitle = function(title){
+Handlebars.registerHelper('reverse', function(title){
   'use strict';
-  title.split('').reverse().join('');
-};
+  return title.split('').reverse().join('');
+});
