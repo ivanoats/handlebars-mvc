@@ -10,6 +10,6 @@ This is not a great example, it needs some more work!
 
 ## TODO
 
-- Add a CommonJS loader. e.g. browserify
-- or Precompile handlebars with node and grunt
+- Add a CommonJS loader. e.g. [Browserify](http://browserify.org/)
+- or [Precompile handlebars with node and grunt](https://www.npmjs.org/package/grunt-contrib-handlebars)
 - Make it purty
