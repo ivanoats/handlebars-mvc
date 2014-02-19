@@ -1,6 +1,6 @@
 # Minimal MVC example based on the first week of JS Bootcamp B10
 
-This is not a good example, it needs work!
+This is not a great example, it needs some more work!
 
 ## Operation
 
@@ -11,6 +11,5 @@ This is not a good example, it needs work!
 ## TODO
 
 - Add a CommonJS loader. e.g. browserify
-- Precompile handlebars with node and grunt
-- Refactor Controller to avoid jQuery
+- or Precompile handlebars with node and grunt
 - Make it purty
